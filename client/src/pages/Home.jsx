@@ -159,7 +159,7 @@ const Home = () => {
           <div className="glass-panel rounded-2xl p-5 border border-white/5 flex flex-col justify-between hover:border-brand-primary/30 transition-all duration-300">
             <div>
               <div className="w-full h-36 rounded-lg overflow-hidden mb-4 border border-dark-border">
-                <img src="https://images.unsplash.com/photo-1472851294608-062f824d296e?auto=format&fit=crop&w=600&q=80" alt="ShopEase storefront" className="w-full h-full object-cover" />
+                <img src="https://picsum.photos/id/60/600/400" alt="ShopEase storefront" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-base font-bold text-white tracking-tight">ShopEase</h3>
               <p className="text-xs text-dark-muted mt-2 leading-relaxed">
@@ -182,7 +182,7 @@ const Home = () => {
           <div className="glass-panel rounded-2xl p-5 border border-white/5 flex flex-col justify-between hover:border-brand-primary/30 transition-all duration-300">
             <div>
               <div className="w-full h-36 rounded-lg overflow-hidden mb-4 border border-dark-border">
-                <img src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=600&q=80" alt="EventEase stage" className="w-full h-full object-cover" />
+                <img src="https://picsum.photos/id/180/600/400" alt="EventEase stage" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-base font-bold text-white tracking-tight">EventEase</h3>
               <p className="text-xs text-dark-muted mt-2 leading-relaxed">
@@ -205,7 +205,7 @@ const Home = () => {
           <div className="glass-panel rounded-2xl p-5 border border-white/5 flex flex-col justify-between hover:border-brand-primary/30 transition-all duration-300">
             <div>
               <div className="w-full h-36 rounded-lg overflow-hidden mb-4 border border-dark-border">
-                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80" alt="StudySphere nodes" className="w-full h-full object-cover" />
+                <img src="https://picsum.photos/id/48/600/400" alt="StudySphere nodes" className="w-full h-full object-cover" />
               </div>
               <h3 className="text-base font-bold text-white tracking-tight">StudySphere</h3>
               <p className="text-xs text-dark-muted mt-2 leading-relaxed">
