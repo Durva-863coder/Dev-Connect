@@ -308,14 +308,20 @@ const Profile = () => {
                 {projects.map((project) => (
                   <div key={project._id} className="border border-dark-border bg-white/[0.01] hover:bg-white/[0.03] rounded-xl p-4 flex flex-col justify-between transition-all">
                     <div>
-                      {/* Gradient placeholder card image wrapper */}
-                      <div className="w-full h-24 rounded-lg overflow-hidden border border-dark-border flex items-center justify-center mb-3">
-                        {project.imageUrl.startsWith('gradient-') ? (
+                      {/* Fixed 16:9 aspect ratio image wrapper */}
+                      <div className="w-full aspect-video rounded-lg overflow-hidden border border-dark-border flex items-center justify-center mb-3 bg-slate-800">
+                        {project.imageUrl && project.imageUrl.startsWith('gradient-') ? (
                           <div className={`h-full w-full ${getGradientClass(project.imageUrl)}`} />
-                        ) : project.imageUrl ? (
-                          <img src={project.imageUrl} alt={project.title} className="w-full h-full object-cover" />
                         ) : (
-                          <div className="h-full w-full bg-slate-800" />
+                          <img
+                            src={project.imageUrl || '/images/project-placeholder.svg'}
+                            alt={project.title}
+                            className="w-full h-full object-cover rounded-lg"
+                            loading="lazy"
+                            onError={(e) => {
+                              e.currentTarget.src = '/images/project-placeholder.svg';
+                            }}
+                          />
                         )}
                       </div>
                       <h3 className="text-sm font-bold text-white truncate leading-snug">{project.title}</h3>
