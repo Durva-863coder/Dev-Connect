@@ -60,11 +60,7 @@ const DEVELOPERS = [
         techStack: ['React', 'Tailwind CSS', 'Redux Toolkit', 'Stripe'],
         githubLink: 'https://github.com/arjun-react/shopease',
         liveDemoLink: 'https://shopease-demo.devconnect.com',
-<<<<<<< HEAD
-        imageUrl: 'https://imgs.search.brave.com/Nd-xJac_scevhuvCQdbfoBombxz6dX4zcujObu3QKE0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zMy1t/ZWRpYTAuZmwueWVs/cGNkbi5jb20vYnBo/b3RvL2NHb2RyZXF1/bUxOTEN1UHNVT3Jh/RncvbC5qcGc'
-=======
         imageUrl: 'https://picsum.photos/id/60/600/400'
->>>>>>> aed4eaa (Done)
       },
       {
         title: 'TaskFlow',
@@ -310,7 +306,7 @@ const seedDatabase = async () => {
     // Arjun (1) <-> Rahul (2) : Connected
     // Priya (3) <-> Amit (4) : Connected
     // Sneha (5) <-> Vikram (6) : Connected
-    
+
     // Pending requests
     // Kavita (7) -> Ananya (0) : Incoming for Ananya
     // Sneha (5) -> Arjun (1) : Incoming for Arjun
