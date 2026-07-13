@@ -1,116 +1,142 @@
-# DevConnect
+# 🌐 DevConnect — Build Your Developer Identity
 
-DevConnect is a professional portfolio and networking platform for developers. It allows engineers to create structured public portfolios, showcase repositories, select from beautiful gradient themes, and establish connections with other developers in the community.
+<p align="center">
+  <img src="https://picsum.photos/id/180/800/400" alt="DevConnect Banner" width="100%" style="border-radius: 16px; border: 1px solid #334155;" />
+</p>
 
-Inspired by premium developer tools like Linear, Discord, Raycast, and Vercel, DevConnect features a sleek, dark mode glassmorphism interface.
+<p align="center">
+  <img src="https://img.shields.io/badge/React-18.2.0-61DAFB?style=flat-square&logo=react&logoColor=white" alt="React 18" />
+  <img src="https://img.shields.io/badge/Node.js-18.x-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-4.x-000000?style=flat-square&logo=express&logoColor=white" alt="Express.js" />
+  <img src="https://img.shields.io/badge/MongoDB-Atlas-47A248?style=flat-square&logo=mongodb&logoColor=white" alt="MongoDB Atlas" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-3.x-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="MIT License" />
+</p>
+
+---
+
+## 📖 Introduction
+
+**DevConnect** is a premium, startup-ready portfolio and networking platform for developers. Designed with a clean, dark mode aesthetic inspired by premium SaaS tools like *GitHub, Linear, Vercel, and Raycast*, it enables developers to create highly polished public profiles, showcase their project repositories, and connect with other engineers in a modern network grid.
+
+---
+
+## ✨ Key Features
+
+* **💼 Professional Developer Profiles**: Restructured card-based public profile layout presenting avatar assets, bios, college references, locations, social contact grids, and chronological activity feeds.
+* **🖼 16:9 Aspect Video Showcases**: Display portfolio builds with strict aspect ratio cards, lazy loading, and fail-safe image triggers (`onError`) resolving to local SVG vector placeholders.
+* **💡 Smart Peer Recommendations**: A dynamic network recommendation engine ("People You May Know") that filters existing connections and requests to present suitable peers.
+* **🔍 Advanced Directory Search**: Query the developer directory concurrently by keyword, technology tags, college name, and geographical location with multi-type sorting.
+* **🛡 Enterprise-Grade Security**: Configured with Helmet CSP headers allowing development XHR callbacks, express-rate-limit buffers, cookie-parsers, and JWT authentication.
+* **🌱 Realistic Indian Developer Seeder**: Seed script loading realistic engineering profiles from CGC Landran, VIT Vellore, BITS Pilani, etc., complete with diverse tech stacks and real connections.
 
 ---
 
 ## 🛠 Tech Stack
 
-### Frontend
-- **React 18** (UI Library)
-- **React Router DOM** (Navigation)
-- **Redux Toolkit** (Global State Management)
-- **Tailwind CSS v3** (Utility-first Styling)
-- **React Icons** (Glyphs and Vector Icons)
-- **Native Fetch API** (Lightweight HTTP requests)
+### 💻 Frontend
+* **Core**: React 18.2.0 (pinned), React DOM 18.2.0 (strictly standard)
+* **Router**: React Router DOM (protected path buffers)
+* **State**: Redux Toolkit (auth, profile, and connection slices)
+* **Styling**: Tailwind CSS (custom solid SaaS layout definitions)
+* **Network**: Native Fetch API (zero-dependency lightweight queries)
 
-### Backend
-- **Node.js** (Runtime Environment)
-- **Express.js** (Web Server Framework)
-- **Mongoose / MongoDB Atlas** (Object Data Modeling)
-- **JWT (JSON Web Tokens)** (State-less Authentication)
-- **bcryptjs** (Password Hashing)
-
-### Security & DevOps Features
-- **Helmet** (Security Headers)
-- **Express Rate Limit** (DDoS and Brute-force Prevention)
-- **Compression** (Gzip payload optimization)
-- **Express Validator** (Strict server-side validation rules)
+### ⚙ Backend
+* **Server**: Node.js & Express.js
+* **Database**: MongoDB Atlas (Mongoose ODM bindings)
+* **Security**: Helmet (disabling CORP strict checks), CORS, Express Rate Limit, Express Validator
+* **Authentication**: Stateless JSON Web Tokens (JWT) stored in HTTP-only cookies, bcryptjs
 
 ---
 
-## 📁 Folder Structure
+## 📁 Project Folder Structure
 
-```
+```text
 DevConnect/
-├── client/                     # Frontend Application (Create React App)
-│   ├── public/                 # Static public files (HTML, favicon)
+├── client/                     # Frontend Application (React App)
+│   ├── public/                 # Static assets & public configs
+│   │   └── images/             # Vector SVGs & fallback images
 │   └── src/
-│       ├── components/         # Reusable UI components (Navbar, ProtectedRoute)
-│       ├── layouts/            # Page layouts (Layout)
-│       ├── pages/              # Routing pages (Dashboard, Directory, Profile, Settings, Login, Register)
-│       ├── redux/              # RTK slices (auth, profiles, projects, connections) & store
-│       ├── utils/              # Client utilities (Fetch API wrapper)
-│       ├── App.js              # Root router and loader
-│       ├── index.css           # Global custom scrollbars and Tailwind directives
-│       └── index.js            # React mounting node
+│       ├── assets/             # Local images & compile imports
+│       ├── components/         # Modular components (Navbar, ProtectedRoute)
+│       ├── layouts/            # Layout wraps (Navbar inclusion)
+│       ├── pages/              # Route pages (Home, Dashboard, Directory, Profile, Settings)
+│       ├── redux/              # Store configuration and RTK slices
+│       └── utils/              # Client-side native Fetch API request blocks
 │
 ├── server/                     # Backend API Service (Express.js)
-│   ├── config/                 # MongoDB clients
-│   ├── controllers/            # Route logic controllers
-│   ├── middleware/             # Protected authentication and error responders
-│   ├── models/                 # Database Mongoose schemas
-│   ├── routes/                 # Express REST endpoint maps
-│   ├── utils/                  # JWT generators
-│   ├── validators/             # Request payload schemas (express-validator)
-│   ├── index.js                # Server entry point
-│   ├── test_all_endpoints.js   # Automated API integration suite
-│   └── test_auth.js            # Modular Auth test script
+│   ├── config/                 # Database configuration & seeding scripts
+│   ├── controllers/            # Route controllers
+│   ├── middleware/             # Validation injectors, Helmet config, and JWT checkers
+│   ├── models/                 # Mongoose schema models (User, Project, Connection)
+│   ├── routes/                 # Express API endpoint maps
+│   ├── utils/                  # Cryptography signing scripts
+│   └── validators/             # Request payload schemas (express-validator)
 │
-├── package.json                # Root package workspace mappings
-└── README.md                   # Main documentation
+├── package.json                # Root workspaces configuration
+└── README.md                   # Platform documentation
 ```
 
 ---
 
 ## ⚙ Environment Configurations
 
-Create a `.env` file in the respective folders using the templates below:
+Create a `.env` file in the respective workspace folders to launch the servers:
 
-### Server Settings (`server/.env`)
+### 1. Backend Server (`server/.env`)
 ```env
 PORT=5000
 MONGO_URI=mongodb+srv://<username>:<password>@cluster.mongodb.net/devconnect
-JWT_SECRET=your_jwt_secret_signing_key
+JWT_SECRET=super_secret_devconnect_key_123
 NODE_ENV=development
 CLIENT_URL=http://localhost:3000
 ```
 
-### Client Settings (`client/.env`)
+### 2. Frontend Client (`client/.env`)
 ```env
 DISABLE_ESLINT_PLUGIN=true
-REACT_APP_API_URL=http://127.0.0.1:5000/api
+REACT_APP_API_URL=http://localhost:5000/api
 ```
 
 ---
 
 ## 🚀 Installation & Local Development
 
-### 1. Prerequisite
-Ensure you have **Node.js** (v18+) and **MongoDB** installed and running on your local machine.
+### 1. Prerequisites
+Make sure you have **Node.js** (v18+) and **npm** installed.
 
-### 2. Install Dependencies
-Run `npm install` at the workspace root to install all dependencies for both workspace directories (root, client, and server) using npm workspaces:
+### 2. Install Workspace Dependencies
+Install root, client, and server packages simultaneously via npm workspaces:
 ```bash
 npm install
 ```
 
-### 3. Run Locally (Concurrent Development)
-Launch both the Express backend and React development server concurrently from the root directory:
+### 3. Run Locally (Concurrently)
+Spin up the hot-reloading development server for both frontend and backend directories:
 ```bash
 npm run dev
 ```
-- Frontend: `http://localhost:3000`
-- Backend API: `http://localhost:5000`
+* **Frontend Site**: `http://localhost:3000`
+* **Backend REST API**: `http://localhost:5000`
 
 ---
 
-## 🧪 Integration Testing
-We have built an automated integration suite inside the server directory that tests database cleanups, registration duplicate validation rules, JWT authentication cycles, profile updates, projects CRUD, directory filters, and cascade account deletions.
+## 🌱 Seeding Mock Data
 
-Run the test suite using:
+To seed or refresh the database with our realistic developer profiles, run:
+```bash
+cd server
+node config/force_seed.js
+```
+This cleans the active collections and inserts 8 developer accounts, 16 project builds, and connection networks.
+
+---
+
+## 🧪 Automated Testing
+
+We have built an integrated automated validation suite that verifies database cleanups, registration duplicate validation rules, JWT authentication cycles, profile updates, projects CRUD, directory filters, and connection request declines.
+
+Run tests:
 ```bash
 cd server
 node test_all_endpoints.js
@@ -118,17 +144,14 @@ node test_all_endpoints.js
 
 ---
 
-## ☁ Production Deployment (Render)
+## ☁ Production Deployment
 
-This codebase is configured from Day 1 to deploy easily on Render as a **single unified Web Service**. In production mode (`NODE_ENV=production`), the Node.js Express server is configured to serve the React static build folder natively.
+This project is configured to build and deploy as a **unified service on Render**:
+* **Build Command**: `npm run build` (wipes, resolves workspaces, and compiles the React application into `/client/build`).
+* **Start Command**: `npm start` (runs the Express server which serves the React build static pages on `/` and mounts REST routes on `/api/*`).
+* Set `NODE_ENV=production` in production settings to switch to production mode.
 
-### Configure on Render
-1. Create a new **Web Service** on Render and link your GitHub repository.
-2. Configure settings:
-   - **Environment**: `Node`
-   - **Build Command**: `npm run build` (Installs workspace packages and compiles the React application into `client/build`).
-   - **Start Command**: `npm start` (Runs the production server at `server/index.js`).
-3. Under **Advanced Settings**, add the environment variables:
-   - `MONGO_URI`: (Your production MongoDB Atlas connection string)
-   - `JWT_SECRET`: (A strong random secret)
-   - `NODE_ENV`: `production`
+---
+
+## 📄 License
+This project is licensed under the [MIT License](LICENSE).
