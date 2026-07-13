@@ -30,6 +30,7 @@ if (process.env.NODE_ENV !== 'production') {
 
 app.use(
   helmet({
+    crossOriginEmbedderPolicy: false,
     contentSecurityPolicy: {
       directives: {
         defaultSrc: ["'self'"],
