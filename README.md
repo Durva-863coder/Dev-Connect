@@ -1,88 +1,86 @@
+<div align="center">
+
 # 🚀 DevConnect
 
-> A modern developer networking platform built with the MERN Stack where developers can create profiles, showcase projects, and connect with other developers.
+### Connect • Collaborate • Grow
 
-![GitHub stars](https://img.shields.io/github/stars/Durva-863coder/Dev-Connect?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Durva-863coder/Dev-Connect?style=for-the-badge)
-![License](https://img.shields.io/github/license/Durva-863coder/Dev-Connect?style=for-the-badge)
+A modern **Developer Networking Platform** built with the **MERN Stack** where developers can build their profile, showcase projects, and connect with other developers.
 
----
+<br>
 
-## 📖 Overview
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Coming_Soon-6366F1?style=for-the-badge)](#)
+[![License](https://img.shields.io/badge/License-MIT-22C55E?style=for-the-badge)]
+[![Status](https://img.shields.io/badge/Status-Active-06B6D4?style=for-the-badge)
 
-DevConnect is a full-stack developer networking platform inspired by modern professional communities.
-
-It allows developers to build their profile, showcase projects, discover other developers, and grow their professional network through a clean and responsive interface.
-
-Designed using the MERN Stack, DevConnect focuses on simplicity, performance, and a modern user experience.
+</div>
 
 ---
 
-## ✨ Features
+# ✨ Features
 
 ### 👤 Authentication
 
-- User Registration
-- Secure Login
+- Secure User Registration & Login
 - JWT Authentication
 - Protected Routes
-- Logout
+- Persistent Sessions
 
 ### 🙋 Developer Profiles
 
-- Profile Picture
-- Bio
-- Skills
-- College
-- Location
-- GitHub
-- LinkedIn
-- Portfolio Website
-- Edit Profile
+- Professional Developer Profiles
+- Bio & Skills
+- College & Location
+- GitHub, LinkedIn & Portfolio Links
+- Profile Picture Support
+- Profile Editing
 
-### 💻 Projects
+### 💻 Project Showcase
 
-- Add Projects
-- Edit Projects
-- Delete Projects
+- Add, Edit & Delete Projects
 - Tech Stack Tags
-- GitHub Repository Link
-- Live Demo Link
+- GitHub Repository Links
+- Live Demo Links
 - Project Images
 
-### 🤝 Networking
+### 🤝 Developer Network
 
 - Browse Developers
 - Send Connection Requests
 - Accept / Reject Requests
 - Remove Connections
 
-### 🔍 Search & Filters
+### 🔍 Smart Search
 
 - Search Developers
-- Search Skills
+- Filter by Skills
 - Filter by College
 - Filter by Location
 
 ### 📊 Dashboard
 
 - Profile Completion
-- Connections
 - Recent Projects
+- Connection Statistics
 - Pending Requests
 - Quick Actions
 
-### 🎨 UI
+### 🎨 Modern UI
 
-- Modern Dark Theme
-- Responsive Design
-- Professional Card Layout
+- Fully Responsive
+- Professional Dark Theme
+- Clean Card Layout
 - Smooth Animations
 - Mobile Friendly
 
 ---
 
 # 🛠 Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=react,redux,nodejs,express,mongodb,javascript,tailwind,git,github,vscode,npm&perline=6" />
+
+</div>
 
 ### Frontend
 
@@ -96,14 +94,14 @@ Designed using the MERN Stack, DevConnect focuses on simplicity, performance, an
 
 - Node.js
 - Express.js
-- MongoDB Atlas
+- MongoDB
 - Mongoose
 - JWT Authentication
 
 ### Security
 
 - Helmet
-- Express Rate Limit
+- Express Rate Limiter
 - Compression
 - Cookie Parser
 
@@ -113,19 +111,21 @@ Designed using the MERN Stack, DevConnect focuses on simplicity, performance, an
 
 ---
 
-# 📂 Project Structure
+# 📁 Folder Structure
 
-```
+```text
 Dev-Connect
 │
 ├── client
+│   ├── public
 │   ├── src
 │   │   ├── assets
 │   │   ├── components
 │   │   ├── pages
 │   │   ├── redux
+│   │   ├── services
 │   │   ├── utils
-│   │   └── services
+│   │   └── layouts
 │
 ├── server
 │   ├── config
@@ -144,7 +144,7 @@ Dev-Connect
 
 # ⚙️ Installation
 
-## Clone Repository
+### Clone the Repository
 
 ```bash
 git clone https://github.com/Durva-863coder/Dev-Connect.git
@@ -152,19 +152,15 @@ git clone https://github.com/Durva-863coder/Dev-Connect.git
 cd Dev-Connect
 ```
 
----
-
-## Install Dependencies
+### Install Dependencies
 
 ```bash
 npm install
 ```
 
----
+### Configure Environment Variables
 
-## Environment Variables
-
-Create a `.env` file inside the `server` folder.
+Create a `.env` file inside the `server` directory.
 
 ```env
 PORT=5000
@@ -176,100 +172,73 @@ JWT_SECRET=your_secret_key
 NODE_ENV=development
 ```
 
----
-
-## Run Project
+### Run the Project
 
 ```bash
 npm run dev
-```
-
-Frontend
-
-```
-http://localhost:3000
-```
-
-Backend
-
-```
-http://localhost:5000
 ```
 
 ---
 
 # 🚀 Deployment
 
-The application is configured for deployment on **Render**.
+The application is configured for **Render** deployment.
 
-```
-Build Command
+### Build Command
 
+```bash
 npm install && npm run build
 ```
 
-```
-Start Command
+### Start Command
 
+```bash
 npm start
 ```
 
 ---
 
-# 📸 Screenshots
+# 🌟 Why DevConnect?
 
-> Add screenshots here after deployment.
+✔ Professional Developer Profiles
 
-### Home
+✔ Project Portfolio Showcase
 
-```
-/screenshots/home.png
-```
+✔ Developer Networking
 
-### Dashboard
+✔ Secure Authentication
 
-```
-/screenshots/dashboard.png
-```
+✔ Modern Responsive UI
 
-### Profile
+✔ Clean MERN Architecture
 
-```
-/screenshots/profile.png
-```
-
-### Directory
-
-```
-/screenshots/directory.png
-```
+✔ Production Ready
 
 ---
 
-# 🎯 Future Improvements
+# 🔮 Future Enhancements
 
 - Real-time Messaging
 - Notifications
+- GitHub API Integration
 - Email Verification
 - Developer Recommendations
-- Project Likes
+- Project Likes & Bookmarks
 - Activity Feed
-- Bookmark Developers
 - Dark / Light Theme
-- GitHub API Integration
 
 ---
 
 # 👨‍💻 Author
 
-Developed as a full-stack MERN project.
+Developed with ❤️ using the MERN Stack.
 
 ---
 
-# ⭐ Support
+<div align="center">
 
-If you found this project helpful, consider giving it a ⭐ on GitHub.
+### ⭐ If you like this project, consider giving it a Star!
 
-```
-⭐ Star the repository if you like it!
-```
+Made for learning, collaboration, and building amazing developer portfolios.
+
+</div>
