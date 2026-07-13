@@ -27,7 +27,7 @@ const DEVELOPERS = [
         techStack: ['Java', 'Spring Boot', 'MySQL', 'Thymeleaf'],
         githubLink: 'https://github.com/ananya-java/inventorypro',
         liveDemoLink: 'https://inventorypro-demo.devconnect.com',
-        imageUrl: 'https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/20/600/400'
       },
       {
         title: 'ExpensePilot',
@@ -35,7 +35,7 @@ const DEVELOPERS = [
         techStack: ['Java', 'Spring Boot', 'AWS S3', 'PostgreSQL'],
         githubLink: 'https://github.com/ananya-java/expensepilot',
         liveDemoLink: 'https://expensepilot.devconnect.com',
-        imageUrl: 'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/201/600/400'
       }
     ]
   },
@@ -60,7 +60,11 @@ const DEVELOPERS = [
         techStack: ['React', 'Tailwind CSS', 'Redux Toolkit', 'Stripe'],
         githubLink: 'https://github.com/arjun-react/shopease',
         liveDemoLink: 'https://shopease-demo.devconnect.com',
+<<<<<<< HEAD
         imageUrl: 'https://imgs.search.brave.com/Nd-xJac_scevhuvCQdbfoBombxz6dX4zcujObu3QKE0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zMy1t/ZWRpYTAuZmwueWVs/cGNkbi5jb20vYnBo/b3RvL2NHb2RyZXF1/bUxOTEN1UHNVT3Jh/RncvbC5qcGc'
+=======
+        imageUrl: 'https://picsum.photos/id/60/600/400'
+>>>>>>> aed4eaa (Done)
       },
       {
         title: 'TaskFlow',
@@ -68,7 +72,7 @@ const DEVELOPERS = [
         techStack: ['React', 'TypeScript', 'Tailwind CSS', 'React-Beautiful-Dnd'],
         githubLink: 'https://github.com/arjun-react/taskflow',
         liveDemoLink: 'https://taskflow.devconnect.com',
-        imageUrl: 'https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/119/600/400'
       }
     ]
   },
@@ -93,7 +97,7 @@ const DEVELOPERS = [
         techStack: ['Python', 'Docker', 'PostgreSQL', 'Redis'],
         githubLink: 'https://github.com/rahul-devops/eventease',
         liveDemoLink: 'https://eventease.org',
-        imageUrl: 'https://images.unsplash.com/photo-1505373877841-8d25f7d46678?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/180/600/400'
       },
       {
         title: 'InvoiceFlow',
@@ -101,7 +105,7 @@ const DEVELOPERS = [
         techStack: ['Go', 'Docker', 'AWS Fargate', 'Terraform'],
         githubLink: 'https://github.com/rahul-devops/invoiceflow',
         liveDemoLink: 'https://invoiceflow.devconnect.com',
-        imageUrl: 'https://images.unsplash.com/photo-1586486855514-8c633cc6fa98?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/3/600/400'
       }
     ]
   },
@@ -126,7 +130,7 @@ const DEVELOPERS = [
         techStack: ['Python', 'FastAPI', 'LangChain', 'MongoDB'],
         githubLink: 'https://github.com/priya-ai/studysphere',
         liveDemoLink: 'https://studysphere.ai',
-        imageUrl: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/48/600/400'
       },
       {
         title: 'HireTrack',
@@ -134,7 +138,7 @@ const DEVELOPERS = [
         techStack: ['Python', 'Flask', 'NLTK', 'React'],
         githubLink: 'https://github.com/priya-ai/hiretrack',
         liveDemoLink: 'https://hiretrack.devconnect.com',
-        imageUrl: 'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/96/600/400'
       }
     ]
   },
@@ -159,7 +163,7 @@ const DEVELOPERS = [
         techStack: ['React', 'Socket.io', 'Node.js', 'Canvas API'],
         githubLink: 'https://github.com/amit-codes/codeboard',
         liveDemoLink: 'https://codeboard-live.com',
-        imageUrl: 'https://images.unsplash.com/photo-1607799279861-4dd421887fb3?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/367/600/400'
       },
       {
         title: 'TravelSync',
@@ -167,7 +171,7 @@ const DEVELOPERS = [
         techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
         githubLink: 'https://github.com/amit-codes/travelsync',
         liveDemoLink: 'https://travelsync.org',
-        imageUrl: 'https://images.unsplash.com/photo-1488646953014-85cb44e25828?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/292/600/400'
       }
     ]
   },
@@ -192,7 +196,7 @@ const DEVELOPERS = [
         techStack: ['Kotlin', 'Jetpack Compose', 'SQLite', 'ML Kit'],
         githubLink: 'https://github.com/sneha-dev/bookhive',
         liveDemoLink: 'https://github.com/sneha-dev/bookhive',
-        imageUrl: 'https://images.unsplash.com/photo-1497633762265-9d179a990aa6?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/115/600/400'
       },
       {
         title: 'RecipeVault',
@@ -200,7 +204,7 @@ const DEVELOPERS = [
         techStack: ['Flutter', 'Dart', 'Firebase'],
         githubLink: 'https://github.com/sneha-dev/recipevault',
         liveDemoLink: 'https://recipevault.com',
-        imageUrl: 'https://images.unsplash.com/photo-1506084868230-bb9d95c24759?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/429/600/400'
       }
     ]
   },
@@ -225,7 +229,7 @@ const DEVELOPERS = [
         techStack: ['Rust', 'Markdown', 'WebAssembly'],
         githubLink: 'https://github.com/vikram-sys/devblog-compiler',
         liveDemoLink: 'https://github.com/vikram-sys/devblog-compiler',
-        imageUrl: 'https://images.unsplash.com/photo-1499750310107-5fef28a66643?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/2/600/400'
       },
       {
         title: 'MovieHub',
@@ -233,7 +237,7 @@ const DEVELOPERS = [
         techStack: ['Rust', 'WebAssembly', 'Three.js'],
         githubLink: 'https://github.com/vikram-sys/moviehub-3d',
         liveDemoLink: 'https://moviehub3d.com',
-        imageUrl: 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/250/600/400'
       }
     ]
   },
@@ -258,7 +262,7 @@ const DEVELOPERS = [
         techStack: ['Next.js', 'Solidity', 'Web3.js', 'PostgreSQL'],
         githubLink: 'https://github.com/kavita-sec/issuetracker',
         liveDemoLink: 'https://securetracker.io',
-        imageUrl: 'https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/10/600/400'
       },
       {
         title: 'PortfolioX',
@@ -266,7 +270,7 @@ const DEVELOPERS = [
         techStack: ['React', 'TypeScript', 'Tailwind CSS'],
         githubLink: 'https://github.com/kavita-sec/portfoliox',
         liveDemoLink: 'https://portfoliox.io',
-        imageUrl: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://picsum.photos/id/26/600/400'
       }
     ]
   }
