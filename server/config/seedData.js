@@ -60,7 +60,7 @@ const DEVELOPERS = [
         techStack: ['React', 'Tailwind CSS', 'Redux Toolkit', 'Stripe'],
         githubLink: 'https://github.com/arjun-react/shopease',
         liveDemoLink: 'https://shopease-demo.devconnect.com',
-        imageUrl: 'https://images.unsplash.com/photo-1472851294608-062f824d296e?auto=format&fit=crop&w=600&q=80'
+        imageUrl: 'https://imgs.search.brave.com/Nd-xJac_scevhuvCQdbfoBombxz6dX4zcujObu3QKE0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9zMy1t/ZWRpYTAuZmwueWVs/cGNkbi5jb20vYnBo/b3RvL2NHb2RyZXF1/bUxOTEN1UHNVT3Jh/RncvbC5qcGc'
       },
       {
         title: 'TaskFlow',
